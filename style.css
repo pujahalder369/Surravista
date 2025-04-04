@@ -1,0 +1,206 @@
+/* Header part */
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: underline rgb(10, 10, 227);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+    color: red;
+    font-weight: 700;
+}
+
+.underlogo {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: red;
+}
+
+.fa-brands:hover {
+    font-size: 26px;
+    color: blue;
+}
+
+.carousel-caption {
+    top: 300px;
+    left: 0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.herofont {
+    font-size: 60px;
+}
+
+/* main part */
+.about {
+    margin-top: 150px;
+}
+
+.para_middle {
+    font-size: 22px;
+}
+
+.second, .foot {
+    background-color: rgb(2, 2, 62);
+}
+
+.get {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1300px) {
+    .herofont {
+        font-size: 45px;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .herofont {
+        font-size: 35px;
+    }
+
+    .heropara {
+        font-size: 12px;
+    }
+
+    .about {
+        margin-top: 45px;
+    }
+
+    .us {
+        font-size: 26px;
+    }
+
+    .us-para {
+        font-size: 14px;
+    }
+
+    .btn1 {
+        font-size: 14px;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+
+    .para_middle {
+        font-size: 18px;
+    }
+
+    .para_small {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .herofont {
+        font-size: 22px;
+    }
+
+    .heropara {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .carousel-caption {
+        top: 200px;
+    }
+
+    .about {
+        margin-top: 25px;
+    }
+
+    .para_middle {
+        font-size: 13px;
+    }
+
+    .para_small {
+        font-size: 10px;
+    }
+
+    .get {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo{
+        font-size: 20px;
+    }
+
+    .underlogo {
+        font-size: 12px;
+    }
+
+    .herofont {
+        font-size: 18px;
+    }
+
+    .heropara {
+        font-size: 7px;
+    }
+
+    .btn {
+        font-size: 11px;
+    }
+
+    .carousel-caption {
+        top: 150px;
+        margin-left: 20px;
+    }
+
+    .para_middle {
+        font-size: 7px;
+    }
+
+    .para_small {
+        font-size: 5px;
+    }
+
+    .get {
+        font-size: 25px;
+    }
+
+    .send {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo{
+        font-size: 16px;
+    }
+
+    .underlogo {
+        font-size: 10px;
+    }
+
+    .herofont {
+        font-size: 17px;
+    }
+
+    .heropara {
+        font-size: 6px;
+    }
+
+    .btn {
+        font-size: 6px;
+    }
+
+    .carousel-caption {
+        top: 90px;
+    }
+}
